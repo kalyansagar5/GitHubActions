@@ -53,6 +53,8 @@ jobs:
             docker stop fur-container || true
             docker rm fur-container || true
 
+              echo "Port 8080 usage:"
+
             docker run -d \
               --restart always \
               -p 8080:80 \
