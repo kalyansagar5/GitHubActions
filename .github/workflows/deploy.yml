@@ -55,6 +55,6 @@ jobs:
 
             docker run -d \
               --restart always \
-              -p 80:80 \
+              -p 8080:80 \
               --name fur-container \
               kalyansagar5/fur-app:latest
